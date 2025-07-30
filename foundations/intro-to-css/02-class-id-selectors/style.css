@@ -9,14 +9,13 @@
     color: rgb(17, 0, 255);
 
 }
-
 .Fourth-Element,
-.odd-numbers,
 .Third-Element {
     font-size: 24px;
 }
 
 .Fourth-Element {
     background-color: rgb(144, 238, 144);
+    font-weight: bold;
 }
 
