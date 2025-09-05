@@ -15,15 +15,18 @@ body {
   display:flex;
   justify-content: space-between;
   align-items:center;
+  padding:8px;
 }
 .right{
   display:flex;
   align-items: center;
+  gap:16px;
 }
 
 .left{
   display:flex;
   align-items:center;
+  gap:16px;
 }
 
 .profile-image {
@@ -58,4 +61,5 @@ a {
 ul {
   list-style-type: none;
   display:flex;
+  gap:16px;
 }
