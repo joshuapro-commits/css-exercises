@@ -33,6 +33,7 @@ ul, a{
   text-align: center;
   justify-content: center;
   align-items: center;
+  gap:13px;
 
 }
 .footer{
@@ -56,9 +57,12 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding:11px
 
 }
-
+.buttons{
+  padding:12px;
+}
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
