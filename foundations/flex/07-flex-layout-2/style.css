@@ -19,6 +19,7 @@ body {
 .main{
   display:flex;
   flex:1;
+  
 }
 .footer {
   height: 72px;
@@ -51,13 +52,19 @@ a{
   display:flex;
   justify-content: flex-start;
 }
+.container{
+  flex:1;
+  display:flex;
+  flex-wrap: wrap;
+}
 
 .card {
   margin:48px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  min-width:300px;
+  width:300px;
+
   
   
 }
