@@ -29,11 +29,17 @@ body {
   justify-content:center;
   align-items:center;
 }
-
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink:0;
 }
 
 .card {
